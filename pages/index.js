@@ -12,9 +12,9 @@ export default function Home() {
       <section className={styles.content}>
         <h1 className={styles.title}>shivansh rustagi</h1>
         <div className={styles.linksContainer, styles.serious}>
-          {/*<h4 className={styles.linkItem}><Link href='/thoughts'><a>blog</a></Link></h4>*/}
+          <h4 className={styles.linkItem}><a href='http://words.shivan.sh'>blog</a></h4>
           <h4 className={styles.linkItem}><a href='/docs/shiv_rustagi_resume.pdf'>resume</a></h4>
-          <h4 className={styles.linkItem}><Link href='/resources'><a>resources</a></Link></h4>
+          {/*<h4 className={styles.linkItem}><Link href='/resources'><a>resources</a></Link></h4>*/}
           <h4 className={styles.linkItem}><a href='https://linkedin.com/in/srustagi'>linkedin</a></h4>
           <h4 className={styles.linkItem}><a href='https://github.com/srustagi'>github</a></h4>
         </div>
